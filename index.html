@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + Vue</title>
+</head>
+
+<body class="has-background-primary-light">
+  <div class="container p-5">
+    <h2 class="title is-2">Formulário de Teste</h2>
+    <div class="columns">
+      <form class="column is-two-fifths">
+        <section class="mb-4">
+
+          <div class="field">
+            <label class="label">Nome:</label>
+            <div class="control">
+              <input class="input" type="text" autofocus required size="50" />
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Sexo:</label>
+            <div class="control">
+              <label class="radio">
+                <input type="radio" name="Sexo" value="Masculino" checked />
+                Masculino
+              </label>
+              <label class="radio">
+                <input type="radio" name="Sexo" value="Feminino" />
+                Feminino
+              </label>
+              <label class="radio">
+                <input type="radio" name="Sexo" value="Outro" />
+                Outro
+              </label>
+            </div>
+          </div>
+
+
+        </section>
+
+
+
+        <section class="mb-4">
+          <div class="field">
+            <label class="label">Marca de Carro:</label>
+            <div class="control">
+              <div class="select">
+                <select class="mb-3">
+                  <option>VW</option>
+                  <option>Ford</option>
+                  <option selected>GM</option>
+                  <option>Audi</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Senha:</label>
+            <div class="control">
+              <input class="input" type="password" required size="10" />
+            </div>
+          </div>
+
+
+          <div class="field">
+            <label class="label">Número Telefone:</label>
+            <div class="control">
+              <input class="input" type="number" />
+            </div>
+          </div>
+
+
+          <div class="field">
+            <label class="label">Data Nascimento:</label>
+            <div class="control">
+              <input class="input" type="date" />
+            </div>
+          </div>
+
+
+          <div class="field">
+            <label class="label">E-mail</label>
+            <div class="control">
+              <input class="input" type="email" />
+            </div>
+          </div>
+
+
+          <div class="field">
+            <label class="label">Telefone</label>
+            <div class="control">
+              <input class="input" type="tel" />
+            </div>
+          </div>
+
+          <input class="button is-link" type="submit" value="Salvar" />
+          <br />
+        </section>
+
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
